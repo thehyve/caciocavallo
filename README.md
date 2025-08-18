@@ -146,7 +146,7 @@ System.setProperty("cacio.managed.screensize", "1920x1080");
 ## Java 17 and later
 The system properties are no longer supported or needed in `pom.xml` or `build.gradle`. 
 
-If you have a mix of GUI and non-GUI tests you may have to ensure that the toolkit is initialized with the Cacio version before any other test might initialize the JDK toolkit otherwise a segmentation fault will occur and crash the JCM.
+If you have a mix of GUI and non-GUI tests you may have to ensure that the toolkit is initialized with the Cacio version before any other test might initialize the JDK toolkit otherwise a segmentation fault will occur and crash the JVM.
 
 You can work around this by ordering your tests or split them out with JUnit Categories.
 
