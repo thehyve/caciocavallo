@@ -41,7 +41,7 @@
   </modules>
 
   <properties>
-    <cacio.java.version>25</cacio.java.version>
+    <cacio.java.version>17</cacio.java.version>
   </properties>
 
   <distributionManagement>
